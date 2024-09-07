@@ -2,6 +2,8 @@
 
 # FILES
 !.gitignore
+!wallpaper_lockscreen
 
 # FOLDERS
+!betterlockscreen/
 !hypr/
