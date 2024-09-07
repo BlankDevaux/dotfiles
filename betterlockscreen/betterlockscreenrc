@@ -1,0 +1,34 @@
+# ~/.config/betterlockscreenrc
+
+# default options
+display_on=0
+span_image=false
+lock_timeout=10
+fx_list=(dim blur dimblur pixel dimpixel color)
+dim_level=50
+blur_level=1
+pixel_scale=10,1000
+solid_color=101213
+
+# default theme
+loginbox=101213
+loginshadow=101213
+locktext="I BELIEVE 󱥋 󱥋 "
+font="JetBrainsMono Nerd Font"
+ringcolor=101213
+insidecolor=101213
+separatorcolor=101213
+ringvercolor=101213
+insidevercolor=101213
+ringwrongcolor=101213
+insidewrongcolor=b3b4af
+timecolor=d3d8e4
+time_format="%H:%M:%S"
+greetercolor=d3d8e4
+layoutcolor=d3d8e4
+keyhlcolor=c21300
+bshlcolor=b3b4af
+verifcolor=c21300
+wrongcolor=a21a1c
+modifcolor=a21a1c
+bgcolor=101213

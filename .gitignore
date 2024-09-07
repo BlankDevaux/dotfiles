@@ -3,6 +3,8 @@
 # FILES
 !.editorconfig
 !.gitignore
+!wallpaper_lockscreen
 
 # FOLDERS
+!betterlockscreen/
 !hypr/
