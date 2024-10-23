@@ -3,6 +3,7 @@
 # FILES
 !.editorconfig
 !.gitignore
+!wallpaper
 !wallpaper_lockscreen
 
 # FOLDERS
@@ -12,5 +13,7 @@
 !hypr/
 !kitty/
 !picom/
+!polybar/
 !rofi/
 !sxhkd/
+!waybar/
