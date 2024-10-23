@@ -27,7 +27,7 @@ mod4 + e
 
 # restart bspwm
 mod4 + alt + r
-	bspc wm -r
+	killall sxhkd && bspc wm -r
 
 # close node
 mod4 + q
@@ -118,11 +118,5 @@ mod4 + l
 
 # Audio
 
-XF86Audio{Lower,Raise}Volume
-  pactl set-sink-volume $(pactl info | grep "Default Sink:" | cut -d':' -f2) {-,+}2%
-
-XF86AudioMute
-  pactl set-sink-mute $(pactl info | grep "Default Sink:" | cut -d':' -f2) toggle
-
-XF86AudioPlay
-  playerctl -p spotify play-pause
+XF86Audio{LowerVolume,RaiseVolume,Mute}
+  exec ~/.config/polybar/scripts/pactl.sh {--lower,--raise,--mute}
